@@ -524,6 +524,7 @@ footer .icons-svg {
 .footer-send {
   margin-bottom: 20px;
   font-size: 14px;
+  font-weight: 700;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -549,6 +550,7 @@ footer .icons-svg {
 }
 .input-send:focus {
   outline: rgba(255, 255, 255, 0.3);
+  background-color: var(--accent-color);
 }
 .input-send::placeholder {
   font-size: 16px;
@@ -699,7 +701,7 @@ footer .icons-svg {
 }
 .checkbox:checked + .form-marker {
   background-color: var(--accent-color);
-  background-image: url(../images/icons.svg#icon-marker);
+  background-image: url(../images/accept.png);
   border: 0;
 }
 .form-marker {
